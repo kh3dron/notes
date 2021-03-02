@@ -2,7 +2,7 @@
 	⁃	Features - labeled parts of data
 	⁃	Labels - what we're predicting, output
 	⁃	Regression v. classification: continuous v. discrete outputs
-•	DESCENDING
+•	DESCENDING INTO ML
 	⁃	y' = b + w1x1 + w2x2 ...
 	⁃	b - bias
 	⁃	w1 - weight 
@@ -19,19 +19,47 @@
 	⁃	If the data is consistant - IE like a line - small batches accelerate training with little impact on performance
 	⁃	Convergence - when the loss function (loss per iteration) evens out, IE model is becoming no more accurate
 	⁃	Scaling - some values are better reduced (prices /= 1000)
-•	HYPERPARAMETER TUNING
+•	WORKING WITH TENSORFLOW
+	- 	notes in .py files
+	⁃	Correlation Matrix: Show how much a given feature correlates with the label
+•	GENERALIZATION
 	⁃	Epochs - number of simulations
 	⁃	enough so that the model converges
 	⁃	IF no convergence, increase epochs OR learn rate
 	⁃	Batch size: More for accuracy, less for efficiency
 	⁃	Learning Rate: too high will cause oscilation, too low will barely move
-	⁃	Defining Synthetic features
+	⁃	Defining Synthetic features: use logic to generate new columns
 	⁃	simple features aren’t always enough - generate new features to train with
 	⁃	Based on the loss value, this is better, but otherwise not really
-	⁃	Correlation Matrix: Show how much a given feature correlates with the label
-•	OVERFITTING
-	⁃	Training set v. Test set 
+•	TRAINING & TESTING SETS
+	⁃	Training set v. Test set: pretty much as they sound 
 	⁃	Never train on the test set
 	⁃	tune the right amound of total data for the training set - hard to get just right
 •	VALIDATION SET
 	⁃	basically another seperate test set
+	- 	When you change the model, it's good to switch up the training data too
+	-	Train on train data, tune to validation set, finally test on test
+	-	Exercise:
+		-	Remember scale factors for some datasets: IE house value/1000
+		-	The loss functions differ in the validation and training sets. Examine them and find they're sorted weirdly
+		-	The solution: shuffle the dataset before cutting it into parts. 
+		-	Notice now that the validation set can be smaller - 15% of the training data. 
+•	REPRESENTATIONS
+	-	"Feature engineering" - turning data into feature vectors usable by models
+		-	Vsualize, debug, monitor
+	-	Feature vectors - raw data into list of numbers
+		-	Choose features which appear often - UIDs are bad
+		-	Values that make sense - human readability always helps. Unix time sux
+		-	No magic values: -1 for invalids are bad for the math
+		-	Mapping categorical features: one-hot encoding, string of 0s with a 1 for the selected value
+			-	Multi-hot encoding has multiple 1's
+			-	Sparse representation: does not store the extra zeroes for one-hot encoding
+		-	Account for upstream instability: avoid features which may be later redefined
+	-	Cleaning data	
+		-	Scaling: adjust vectors to 0->1 or -1->1, aim to roughly normalize vectors
+			-	NaN trap: a NaN value will corrupt other features by multiplying/dividing
+		-	Outliers: you can log every value, or clip the tails
+		-	Binning: remove some noise from continuous features (latitude)
+	-	Scrubbing
+		-	Stats come in to play here: mean, stddev, max/min
+-	FEATURE CROSSES

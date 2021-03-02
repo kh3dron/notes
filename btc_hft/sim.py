@@ -4,8 +4,13 @@ from time import sleep
 import random
 from itertools import count
 import matplotlib.pyplot as plt
-from matplotlib.animation import FuncAnimation
 import numpy as np
+import pandas as pd
+import tensorflow as tf
+from matplotlib import pyplot as plt
+
+#I WILL COME BACK TO THIS MESS AFTER I'M DONE WITH THE COURSE
+#I KNOW IT SUCKS
 
 
 def pprint(a):
@@ -20,30 +25,16 @@ def linearAverage(prices):
 def r(f): #keeps the printing pretty
     return round(f, 5)
 
-
-print("Loading Sim Data...")
-with open("smaller_data.txt") as f:
-    lines = f.read().split("\n")
-    lines = [r.split(",") for r in lines]
-    lines = [[int(a[0]), float(a[1])] for a in lines]
-print(len(lines), "minutes of data to read")
-
+train_df = pd.read_csv("../../bitstampUSD_1-min_data_2012-01-01_to_2020-12-31.csv")
 
 unix_start = 1496275200
 #simStart = int((unix_start - 1483228800) / 60)
-simStart = 1
-simLife = len(lines)-simStart-1 
-#days = 365
-#simLife = (60*24*days)-1  # 60*24*(number of days to simulate)
-trial = lines[simStart:simStart+simLife]
-date1 = lines[simStart]
-date2 = lines[simStart+simLife]
 
 #Hyperparameters: Buy a dip, sell at gain
 dip = .8 
 gain = 4
 
-
+#this shit gutted
 def test(dip, gain):
 
     # For Crypto
@@ -165,29 +156,3 @@ def test(dip, gain):
     
     return ret/hodl
 
-# Check the sim returns
-
-dips = [a/10 for a in range(7, 10)]
-gains = [b for b in range(3, 5)]
-
-params = np.array([[(a, b) for a in dips] for b in gains])
-storage = np.array([[1 for a in range(len(dips))] for b in range(len(gains))])
-
-print(test(.8, 4))
-
-for x in range(len(params)):
-    for y in range(len(params[x])):
-        print(params[x][y][0], params[x][y][1])
-        storage[x][y] = test(params[x][y][0], params[x][y][1])
-
-print(storage)
-
-
-fig, ax = plt.subplots()
-im = ax.imshow(storage)
-for i in range(len(storage)):
-    for j in range(len(storage[0])):
-        text = ax.text(j, i, storage[i, j],
-                       ha="center", va="center", color="w")
-
-plt.show()
