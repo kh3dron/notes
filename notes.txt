@@ -1,0 +1,37 @@
+•	BASIC TERMS
+	⁃	Features - labeled parts of data
+	⁃	Labels - what we're predicting, output
+	⁃	Regression v. classification: continuous v. discrete outputs
+•	DESCENDING
+	⁃	y' = b + w1x1 + w2x2 ...
+	⁃	b - bias
+	⁃	w1 - weight 
+	⁃	Loss function - calculate the diference in your model 
+	⁃	MSE - mean squared error, popoular loss function
+•	REDUCING LOSS
+	⁃	Gradient Descent - move along the derivative of weights towards less loss
+	⁃	Learning rate - how much to move the loss function
+	⁃	too high and we overshoot / oscilate, too low and we waste time
+	⁃	Batch - the amount of examples used in one gradient update
+	⁃	Full-batch is expensive, so use less
+	⁃	mini batch - use less than the whole batch
+	⁃	Stochastic gradient descent - batch size of 1
+	⁃	If the data is consistant - IE like a line - small batches accelerate training with little impact on performance
+	⁃	Convergence - when the loss function (loss per iteration) evens out, IE model is becoming no more accurate
+	⁃	Scaling - some values are better reduced (prices /= 1000)
+•	HYPERPARAMETER TUNING
+	⁃	Epochs - number of simulations
+	⁃	enough so that the model converges
+	⁃	IF no convergence, increase epochs OR learn rate
+	⁃	Batch size: More for accuracy, less for efficiency
+	⁃	Learning Rate: too high will cause oscilation, too low will barely move
+	⁃	Defining Synthetic features
+	⁃	simple features aren’t always enough - generate new features to train with
+	⁃	Based on the loss value, this is better, but otherwise not really
+	⁃	Correlation Matrix: Show how much a given feature correlates with the label
+•	OVERFITTING
+	⁃	Training set v. Test set 
+	⁃	Never train on the test set
+	⁃	tune the right amound of total data for the training set - hard to get just right
+•	VALIDATION SET
+	⁃	basically another seperate test set
