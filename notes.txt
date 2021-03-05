@@ -69,3 +69,11 @@
 	-	Exercise:
 		-	Creating a synthetic feature of crossed latitude/longitude buckets for housing dataset: smart
 -	REGULARIZATION: SIMPLICITY
+	-	Too many synthetic features can be a type of overfitting
+	-	Punish models that get complex 
+		-	Encourages unhelpful features to be weighted near 0 (nice)
+	-	Minimize the sum of loss and commplexity
+	-	L2 regularization: sum of squares of weights
+	-	Generalization curve: validation and training loss as f(iterations)
+	-	Lambda: the emphasis on simplicity v. loss. Higher lambda = tighter distribution of weights
+-	LOGISTIC REGRESSION
