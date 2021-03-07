@@ -77,3 +77,8 @@
 	-	Generalization curve: validation and training loss as f(iterations)
 	-	Lambda: the emphasis on simplicity v. loss. Higher lambda = tighter distribution of weights
 -	LOGISTIC REGRESSION
+	-	Used for calculating probabilities: results must be in a specific range
+	-	Sigmoid function: logistic function, limits to 0 and 1 with a crossover 
+	-	Use a new loss function: loss approaches infinity as prediction approaches 1 or 0
+	-	Regularization matters greatly here - L2 regularization is gr8
+-	CLASSIFICATION
