@@ -82,3 +82,28 @@
 	-	Use a new loss function: loss approaches infinity as prediction approaches 1 or 0
 	-	Regularization matters greatly here - L2 regularization is gr8
 -	CLASSIFICATION
+	-	Thresholding: collapsing a logistic regression (probabalistic) into a binary state
+	-	True/false positive/negative: 
+		-	T/F refers to correct or incorrect prediction
+		-	P/N refers to model's prediction
+		-	Accuracy: not a perfect metric for Class imbalanced sets. (IE labels are not evenly discributed)
+			-	Coin toss is class balanced, cancer diagnosis is imbalanced
+	-	Precision: TP/(TP+FP), how confident is a "flagged true" diagnosis?
+	-	Recall: TP/(TP+FN), how many true diagnosis were flagged?
+		-	Improving precision often costs recall, and the inverse
+		-	Higher classification threshold means better precision, lower recall
+	-	ROC curve
+		-	Reciever Operating Characteristic curve
+		-	X is TPR (TP/TP+FN), Y is FPR (FP/FP+TN). Graph every point while moving threshold 0-1
+	-	AUC curve: Area Under ROC curve
+		-	effectively the probability that random positive is rated higher than a random negative sample
+		-	Always-right model has AUC of 1, always wrong has 0
+		-	Attrributes: (sometimes good, somethimes not)
+			-	Scale invariant: only comparative
+			-	Classification threshold invariant: factors in the sum of all thresholds. 
+	-	Prediction Bias
+		-	Average of predictions should be similar to average of observations
+		
+
+
+
