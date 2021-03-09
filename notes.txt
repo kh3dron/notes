@@ -103,7 +103,12 @@
 			-	Classification threshold invariant: factors in the sum of all thresholds. 
 	-	Prediction Bias
 		-	Average of predictions should be similar to average of observations
-		
-
-
-
+		-	Don't fix by adding a calibration layer - that's the symptom, not the cause
+		-	Measure this by bucketing a bunch of labeled data and measuring the prediction bias
+			-	Bucketing: take 1000 examples, average label of .6, measure average prediction
+	-	Exercise
+		-	Normalizing with Z-scores: translates every feature into a # of standard deviations from the mean
+-	REGULARIZATION: SPARSITY
+	-	Sparse data has lots of zeroes - NLP is here
+	-	L1 regularization: minimize sum of abs value of weights 
+	-	L0 regularization: minimize the number of non-zero weights (slightly different, not as used)
