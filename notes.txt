@@ -111,4 +111,8 @@
 -	REGULARIZATION: SPARSITY
 	-	Sparse data has lots of zeroes - NLP is here
 	-	L1 regularization: minimize sum of abs value of weights 
+		-	Note that this can cause copies of correlated features to be pulled to zero (weird)
+		-	L1 tends to reduce the model size further than L2
 	-	L0 regularization: minimize the number of non-zero weights (slightly different, not as used)
+	-	Too much regularization (too high lambda) can hurt the model's ability to converge
+-	NEURAL NETWORKS
