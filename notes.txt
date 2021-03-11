@@ -116,3 +116,23 @@
 	-	L0 regularization: minimize the number of non-zero weights (slightly different, not as used)
 	-	Too much regularization (too high lambda) can hurt the model's ability to converge
 -	NEURAL NETWORKS
+  -	Non-linear classification problem. Some models can't be solved linearly, but a b+sum(weight n * feature n) can't do curves
+  -	RELU: An alternative to the sigmoid function, but instead of dealing with logs it's just max(0, val)
+    -	Rectified Linear Unit
+  -	The 3B1B video is a lot better than this chapter's reading
+  -	Programming exercise:
+    -	Early hidden layers need more neurons than later ones - information is lost as it travels through the layers
+    -	Adding more hidden layers 
+    -	Adding too many neurons and layers can lead to overfitting or memorizing
+    -	Spiral lab key takeaways:
+      -	Idea 1: add tons of hidden layers and nodes. Problems: model is slow, hard to interpret hidden layers
+      -	Idea 2: Reduce those both back down. Problem now is that the model doesn't work well
+      -	Feature engineering is extremely effective - quickest returns over parameter tuning
+-	TRAINING NEURAL NETWORKS
+  -	You don't really need to know how to code it raw - let the libraries do that
+  -	Vanishing gradients: lots of small values can increase sim time, kill them off with RELU
+  -	Exploding gradients: too large of gradients are also weird, lower learning rate and normalize batches
+  -	Dead RELUs: Weights that fall to 0 often stay there, which can infect the rest of the model. Reduce learning rate
+  -	Dropout regularization: Sometimes it helps the model to just flatline a neuron in the middle of training. This can help with local minimums and stronger regularization. Damn, that's crazy
+-	MULTI-CLASS NEURAL NETS
+
