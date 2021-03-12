@@ -129,10 +129,25 @@
       -	Idea 2: Reduce those both back down. Problem now is that the model doesn't work well
       -	Feature engineering is extremely effective - quickest returns over parameter tuning
 -	TRAINING NEURAL NETWORKS
-  -	You don't really need to know how to code it raw - let the libraries do that
-  -	Vanishing gradients: lots of small values can increase sim time, kill them off with RELU
-  -	Exploding gradients: too large of gradients are also weird, lower learning rate and normalize batches
-  -	Dead RELUs: Weights that fall to 0 often stay there, which can infect the rest of the model. Reduce learning rate
-  -	Dropout regularization: Sometimes it helps the model to just flatline a neuron in the middle of training. This can help with local minimums and stronger regularization. Damn, that's crazy
+	-	You don't really need to know how to code it raw - let the libraries do that
+	-	Vanishing gradients: lots of small values can increase sim time, kill them off with RELU
+	-	Exploding gradients: too large of gradients are also weird, lower learning rate and normalize batches
+	-	Dead RELUs: Weights that fall to 0 often stay there, which can infect the rest of the model. Reduce learning rate
+	-	Dropout regularization: Sometimes it helps the model to just flatline a neuron in the middle of training. This can help with local minimums and stronger regularization. Damn, that's crazy
 -	MULTI-CLASS NEURAL NETS
-
+	-	One vs. All classifying - one output node for each thing we might be looking for (numbers in 3B1B)
+		-	"n many binary classifiers"
+		-	This becomes less efficient as the number of classes rises
+	-	Softmax - makes all output node values add to 1. Implemented in the last hidden layer, which has n many nodes
+	-	Candidate sampling - reduces the number of classes softmax shares over (?)
+	-	Suppose you want multiple labels (picture of multiple things)
+		-	Can't use softmax, must have multiple logistic regressions
+	-	Programming Exercise:
+		-	It's the 3b1b example!
+-	EMBEDDINGS
+	-	Example: movie reccomendations
+	-	Embed the space of all movies into a d-dimensional space
+		-	Doing this manually, you could create dimensions with meanings: runtime, rating, etc. 
+			-	A neural net may come up with more abstract meanings ofc - these are called latent dimensions
+	-	Categorical data: a discrete subset of a larger set (which movies has a given user watched)
+		-	often held in sparce tensors, as the tensor is mostly empty
