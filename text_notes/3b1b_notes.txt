@@ -1,0 +1,47 @@
+1 - VECTORS
+    -   Different ways to look at them: effectively an ordered list of numbers
+    -   They can be added and multiplied by other vectors
+    -   Vector addition: just elementwise addition (path of both arrows)
+    -   Multiplying by constant: elementwise, also called Scaling (scalars)
+2 - COMBINATIONS, SPANS, BASIS VECTORS
+    -   Unit vectors in X, Y, Z: i, j, k (Basis vectors)
+    -   Span: the set of all linear combinations of pairs of vectors is the span of two vectors 
+        -   often the entire plane, a line if the two vectors are parallel, and can be 0 
+        -   If a vector can be removed without altering the span (same on the same n-plane), these two vectors are "linearaly dependent"
+            -   alterhative are linearly independent variables
+    -   The basis of a vector space is a set of linearly independent vectors that span that space
+3 - MATRICES
+    -   Linear transformations: 2 properties
+        -   All lines must remain lines (no curves)
+        -   The origin must be maintained
+    -   Think about [Xin, Yin] -> linear transformation -> [Xout, Yout]
+    -   Described by 4 numbers: the 2 coordinates for where the new i and j land, respectively
+    -   A 2x2 matrix has, in each column, each basis vector for the space
+4 - MATRIX MULTIPLICATION
+    -   Can be called a composition of multiple matrices
+    -   Order matters
+    -   Applying one transformation, then another
+    -   Still probably need to memorize the formula
+5 - 3-D LINEAR TRANSFORMATIONS
+    -   Extra variables but same logic
+6 - THE DETERMINANT
+    -   Basically the volume of the unit space after a transformation
+    -   Will be zero if space gets compressed into a smaller dimension
+    -   Can be negative, if we invert the orientataion of space
+    -   Right hand rule for positive 3-d determinant: i, j, k for index, middle, thumb. IF it only works on left hand, you've got a negative determinant
+7 - INVERSE MATRICES, COLUMN SPACE, NULL SPACE  
+    -   If a matrix has a determinant of zero, it cannot be inverted back into a higher dimension
+        -   Information has been lost
+    -   Rank: the number of dimensions on an output of a transformation 
+        -   Also, the number of dimensions of the column space
+    -   Null space: the set of solutions to a lienar system of equations
+        -   The space of vectors which collapse to zero when hit with the inverse matrix
+8 - NONSQUARE MATRICES AS TRANSFORMATIONS BETWEEN DIMENSIONS
+    -   a 3x2 matrix maps a 2d plane to a 3d region, and etc. 
+9 - DOT PRODUCTS
+    -   A measure of how much two vectors work together
+    -   0 if vectors are perpendicular
+
+
+N - EXTRA NOTES
+    -   Scalar, vector, matrix, tensor: 0, 1, 2, 3+ dimensional arrays / lists (different ranked structures)

@@ -71,8 +71,4 @@ np.add(n, 1, out=n)
 print(f"t: {t}")
 print(f"n: {n}")
 
-"""
-christ, I need to learn linear algebra
-resume here: https://pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html
-
-"""
+"Resume here: https://pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html"
