@@ -1,0 +1,13 @@
+## Create a CI/CD Pipeline
+
+- Create a CI/CD Pipeline
+- Set up a Git Repo
+    - Fork the starter
+    - make some changes, git add ., git commit -m "new splash", git push
+- Deploy the webapp
+    - Click through beanstalk creation menu
+- Create Build Project
+    - Configure a codebuild project - this hooks in to the forked git repo and runs the code on
+- Create a Pipeline
+    - Use AWS CodePipeline Console
+- Finalize the Pipeline

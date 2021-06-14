@@ -1,0 +1,19 @@
+## Build a Serverless Web Application
+
+- Host a static site in S3:
+    - Use AWS Code commit to create a repo, clone into it, then AWS Amplify to host that static HTML/CSS/JS content
+    - git CLI words: {'git add .', 'git commit -m 'new shit'', 'git merge'}
+- Manage users:
+    - Create a signin portal with Cognito: sends email codes to new users as they sign up. Maintains user pool for applicaiton. password - Learn2Fly!
+- Serverless Backend
+    - Create a DynamoDB table
+    - Create an IAM role for the Lambda function - give it the rights to put an item into a dynamoDB table. Specify this particular dynamoDB table via ARN in resource privs
+    - Create Lambda function for handling requests - case sensitivity issue
+- Create a new rest API
+    - Create another user pool in cognito
+    - Create a Cognito Pools Authorizor
+    - Create a new resource, then method inside the API
+    - Once you deploy the API, you get your invokeURL
+    - Put that invokeURL into the site's config.js file and it'll all tie together nicely
+- Delete everything
+    - pretty simple

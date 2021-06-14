@@ -1,0 +1,26 @@
+- AWS Code Commit
+    - Git control for AWS
+- AWS Amplify
+    - Hosts static webapps
+- AWS Cognito
+    - User sign up, sign in, access control
+- AWS Dynamo DB
+    - managed no-sql database
+- System Call / Syscall
+    - program makes request to the kernel
+- NoSQL
+    - database structure that doesn't rely on tabular relationships
+    - better for horizontal scaling
+- Stateless / Sessionless
+    - every request can be understood on its own - no chaining together with prior requests. Examples: IP, HTTP. Not examples: TCP, FTP.
+- BLOB storage
+    - Binary Large OBject, used to describe a storage system that doesn't care about filetype
+- Relational ACID database
+    - Atomicity, Consistency, Isolation, Durability
+- NoSQL BASE database
+    - Basically available, soft state, eventualy consistent
+- CAP Theorem for distributed storage
+    - No system can do all three: Consistency, Availability, Partition tolerence
+- Optimistic Concurrency Control
+- MapReduce
+- Sharding
