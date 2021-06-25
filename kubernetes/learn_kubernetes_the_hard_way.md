@@ -34,4 +34,19 @@ https://github.com/prabhatsharma/kubernetes-the-hard-way-aws
     - Service account key pair
     - The kube-proxy, kube-controller-manager, kube-scheudler, and kubelet client certs are used to generate client auth config files
 - Generating Kubernetes Configuration Files for Authentication
-    
+    - Kubeconfigs let clients locate and auth to kubernetes API servers
+    - The DNS address of the api server will be the load balancer
+    - Create a kubeconfig file for each worker node: 
+        - points to all the keys generated in the last step 
+        - Bash scripts with variables point to the regular naming scheme 
+- Generating the Data Encryption Config and Key
+    - generate encryption key with /dev/urandom
+    - use SCP and rsa keys in bash loop to propogate encryption config file through nodes
+        - this is probably pretty tame bash but still feels big to me
+- Bootstrapping the etcd Cluster
+    - etcd is a distributed key-value store for distributed systems
+        - written in Go, uses Raft consunsus alg
+    - tmux synchronize panes, nifty
+    - etcd configuration on the ubuntu vms is pretty typical - expose them to the certificates and all that
+- Bootstrapping the Kubernetes Control Plane
+    - 
