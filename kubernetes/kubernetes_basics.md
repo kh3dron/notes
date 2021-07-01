@@ -8,9 +8,6 @@
 - kubectl expose deployment hello-minikube --type=NodePort --port=8080
 - kubectl get services hello-minikube
 
-
-
-
 ### https://kubernetes.io/docs/tutorials/kubernetes-basics/
 
 - 1 - Create a Kubernetes Cluster
@@ -39,3 +36,18 @@
             - scheduled the application to run on the node
             - configured the cluster to reschedule the instance on a new node if needed 
         - kubectl get deployments
+        - You can access the pod through a proxy
+- 3 - Viewing Pods and Nodes
+    - A pod stores some containers and some shared resources:
+        - Shared storage as volumes
+        - Shared networking as a cluster IP address
+        - Container image versions or ports to use
+    - A pod is effectively a logical host - containers within a pod are tightly coupled
+    - Some commands:
+        - kubectl get
+            - kubectl get pods
+        - kubectl describe
+            - kubectl describe pods
+        - kubectl logs
+        - kubectl exec
+    
