@@ -1,0 +1,56 @@
+- Introduction
+  - The actual nine: Google, Amazon, Apple, IBM, Microsoft, Facebook, Baidu, Alibaba, Tencent
+  - China's New Generational Artificial Intelligence Development Plan - plan to be global leader of AI in 2030 with an industry worth 150B
+    - Also working on expanding power grids, belt and road initiative
+- 1 - MIND AND MACHINE: A VERY BRIEF HISTORY OF AI 
+  - Odd Paradox: as soon as something is developed, it's no longer AI 
+  - Cover some of the classic AI questions: is creativity intelligence, can you create something new from being trained on existing data. What is Real? How do you define Real?
+  - AI was hot in the 50's, then cooled off for a while when 
+  - Back again in the 80's-90's, with some victories in game playing
+    - Neural networks with hidden layers thought of in this era, but considered too fringe and unlikely due to being unable to understand the model once developed (among other reasons)
+  - Three characteristics of AI Research:
+    - Big Tech and researchers working together
+    - commercial success drives progress
+    - Largely homogeneous groups of workers
+- 2 - THE INSULAR WORLD OF AI'S TRIBES
+  - Mostly American or Chinese, college educated, mostly men
+    - Can be less interdisciplinary than other academics, or even taking less classes at all in exchange for building things
+    - Chinese advantages:
+      - full government support
+      - long term national vision
+    - American advantages:
+      - better markets / commercialization
+    - Thousand talents plan: china's way to fight the brain drain, retain professionals and academics
+- 3 - A THOUSAND PAPER CUTS: AI'S UNINTENDED CONSEQUENCES
+  - Conway's law: in the absense of states rules and instructions, the choices teams make tend to reflect the implicit values of that team 
+  - Neural networks are hard to debug / read - origin story of DeepDream
+- 4 - FROM HERE TO ARTIFICIAL SUPERINTELLIGENCE - THE WARNING SIGNS
+  - Warning signs of future crisis:
+    - Treated like a platform instead of a public good
+    - Concentrates power among few 
+      - cloud providers
+  - Lots of extremely surface-level comparisons and thought experiments here - paperclips, number of neurons in brains v. computers, intelligence explosion. Much better and more creative analysis in Superintelligence or Novacene, two books I'd reccomend
+- 5 - THRIVING IN THE THIRD AGE OF COMPUTING: THE OPTIMISTIC SCENARIO
+  - seems pretty great ofc
+  - humanity largely unanimously decides not to develop AGI, and that just... works?
+    - fake
+- 6 - LEARNING TO LIVE WITH MILLIONS OF PAPERCUTS: THE PRAGMATIC SCENARIO
+  - Some papercuts:
+    - shitty products trained on synthetic data
+    - reward hacking
+    - GANs fighting eachother to poison data
+      - "parrot attacks" - training a model to duplicate your voice, which itself might be used as auth
+    - Deep segmentation of two party operating systems & ecosystems
+    - Learned helplessness
+    - Work: lots of middlemanagement jobs are eliminated
+      - concentrates wealth
+- 7 THE RENGONG ZHINENG DYNASTY: THE CATASTROPHIC SCENARIO
+  - Caste system - differing levels of access to AIs reinforces existing heirarchies
+  - China wins race to ASI and it kills america, huh
+- 8 PEBLES AND BOULDERS: HOW TO FIX AI'S FUTURE
+  - Create international colaboration for the control problem and AI developments
+  - Create a "human values index" - so solve all of philosophy?
+  - Make AI secure - yeah, alright. You're back to just saying shit 
+  - AI should be explainable. This is incompatible with it being complex IMO - can you really explain how your pocketwatch works? 
+  - politicians should know how AI works, lmfao 
+  - List of a huge block of things that go against everything that drives technology change and development - like open standards, private data ownership, "no racism allowed" - yeah, sounds great, but there's nothing novel to me about saying how much better everything should be. This is sort of calling on everyone to just start being cool, which is what I have instagram infographics for 

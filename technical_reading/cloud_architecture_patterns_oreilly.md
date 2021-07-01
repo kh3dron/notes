@@ -1,0 +1,82 @@
+- 1 - Scalability Primer
+  - Vertical v. Horizontal Scaling
+  - Metrics to describe scaling: Concurrent users and Response time
+  - Performance v. Scalability: experience of 1 user v. how many get to use the app at all
+- 2 - Horizontally Scaling Compute Pattern
+  - Horizontal scaling better for matching fluctuating load
+  - Better for resilience
+  - How to handle state? depends on the level you maintain state on
+    - Sticky sessions in the web tier: you get assigned a node by a load balancer, then that web server node remembers you 
+      - Easy to code, but this makes the node stateful 
+      - Stateful nodes are harder to scale out
+    - Client side cookies
+    - Distributed Cache 
+- 3 - Queue Centric Workflow Pattern
+  - System that runs mainly off of a queue
+  - Communication is in one direction, from the web tier to the service tier
+  - A decoupled web tier is more responsive and reliable, better UX
+  - decoupling also allows for better provisioning between levels
+- 4 - Auto-Scaling pattern
+  - Automate horizontal scaling via IAC
+  - Scaling can be scheduled, or tied to metrics (response times, load)
+  - N+1 rule: allocate one extra node at all times
+  - Be aware of clock-hour rules
+  - Throttling: disable features / lighten load while scaling out 
+- 5 - Eventual Consistency Primer
+  - We can't guarantee both consistency and availability in a distributed database
+  - Eventual consistency -> tradeoff for better scalability
+  - Traditional relational database offers four ACID guarantees:
+    - Atomicity - no partially completed transactions, all or nothing
+    - Consistency - data is valid according to schema constraints
+    - Isolation - competing transactions are applied sequentially
+    - Durability - committed changes are not lost
+  -  CAP theorem: no distributed data store can do all three:
+    - Consistency: every read receiving its most recent write
+    - Availability: every request receives a response
+    - Partition tolerance: system operates despite any number of messages dropping between nodes
+  - Immediately consistent: you can immediately read back the data you just wrote
+  - Optimistic concurrency control: assume that multiple transactions can take place without interfering
+- 6 - MapReduce
+  - Write two functions, a mapper and a reducer
+  - Hadoop AAS can read directly from S3 or Azure BLOB, good because moving data is expensive 
+  - Good for massively parallelizable workloads
+- 7 - Database Sharding
+  - Database nodes are completely autonomous from one another
+  - Need to do something that spans shards? use MadReduce
+  - "Fanning out" to run queries across shards
+- 8 - Multitenancy and Commodity Hardware Primer
+  - Multitenancy - multiple tenants on the same hardware
+  - Tenant Isolation - you should think you're the only tenant 
+  - Dogfooding - use your own tools in development 
+  - MTBF - Mean Time Between Failures
+  - MTTR - Mean Time To Recovery
+- 9 - Busy Signal Pattern
+  - All applications should have handling for busy signals
+  - If your busy signal issue persists regularly enough, it transforms into a scaling problem
+  - Possible responses:
+    - Retry immediately
+    - Retry after delay
+    - Retry with increasing delay (linear or exponential backoff) to a max delay
+    - Throw an exception in your application
+- 10 - Node Failure Pattern
+  - you have to be ready for hardware failures
+  - N+! rule
+  - Consider that sometimes failures can happen at the rack level, killing N+1: many cloud providers will handle this for you
+    - sometimes at higher price
+  - Implement shutdown flags: IAC programs can respond to these before a host has completely shut down, to reroute shit so nothing gets dropped
+- 11 - Network Latency Primer
+  - A few ways to deal with this:
+  - Push your application to geographic edges via good CDNs
+- 12 - Colocate Pattern
+  - Sometimes, you want applications to be in the same datacenter
+  - You might be able to save cost here - many cloud providers bill by data egress, which might not cover same-datacenter movement
+- 13 - Valet Key Pattern
+  - Tokens that provide restricted access to reading or writing to specific resources
+  - This can be used to offload some processing to clients - let them write to blob storage directly with valet keys, rather than put all traffic through a proxy 
+- 14 - CDN Pattern
+  - A distributed cache
+  - Best used on things that change often and accessed frequently
+- 15 - Multisite Deployment Pattern
+  - The opposite of collocate
+  - resiliency to the loss of a single datacenter
+
