@@ -44,10 +44,34 @@
         - Container image versions or ports to use
     - A pod is effectively a logical host - containers within a pod are tightly coupled
     - Some commands:
-        - kubectl get
-            - kubectl get pods
-        - kubectl describe
-            - kubectl describe pods
+        - kubectl get pods
+        - kubectl describe pods
         - kubectl logs
-        - kubectl exec
-    
+        - kubectl exec $POD_NAME -- env
+        - kubectl exec -ti $POD_NAME -- bash
+            - full shell, talk to the pod's services with localhost
+        - exit
+- 4 - Using a Service to Expose your App
+    - Pods are mortal, and have life cycles
+    - When a worker dies, the pods running on the node are lost. 
+    - Replica Sets: can aquire and create pods for scaling out
+    - Services: define logical sets of pods, and a policy to access them 
+        - Enable loose coupling between dependend Pods
+        - Route traffic across pods
+        - Allow pods to die and replicate in kubernetes without impacting your application
+    - Labels
+        - a grouping primitive for logical operation on objects
+    - More Commands:
+        - kubectl get pods: to check we're running
+        - kubectl get services
+        - kubectl expose deployment/kubernetes-bootcamp --type="NodePort" --port 8080
+        - kubectl describe services/kubernetes-bootcamp
+        - export NODE_PORT <on and on>
+        - curl $(minicube ip):$NODE_PORT 
+        - kubectl describe deployment
+        - kubectl get pods -l app=kubernetes-bootcamp
+        - kubectl get deployments -l app=kubernetes-bootcamp
+        - export POD_NAME <>
+        - kubectl label pods $POD_NAME version=v1
+        - kubectl describe pods $POD_NAME
+        
