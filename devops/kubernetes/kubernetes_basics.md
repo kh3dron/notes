@@ -66,12 +66,43 @@
         - kubectl get services
         - kubectl expose deployment/kubernetes-bootcamp --type="NodePort" --port 8080
         - kubectl describe services/kubernetes-bootcamp
-        - export NODE_PORT <on and on>
+        - export NODE_PORT <command>
         - curl $(minicube ip):$NODE_PORT 
         - kubectl describe deployment
         - kubectl get pods -l app=kubernetes-bootcamp
+            - logical operators on labels
         - kubectl get deployments -l app=kubernetes-bootcamp
-        - export POD_NAME <>
+        - export POD_NAME <command>
         - kubectl label pods $POD_NAME version=v1
         - kubectl describe pods $POD_NAME
-        
+        - kubectl delete service -l app=kubernetes-bootcamp
+        - kubectl get services
+        - curl $(minikube ip):$NODE_PORT
+            - fails to connect, hence service is deleted
+        - kubectl exec -ti $POD_NAME --curl localhost:8080
+            - this works, because we're no longer reaching from the outside via the service
+- 5 - Running Multiple Instances of your App
+    - So far, we've created a **Deployment**, and exposed it via a **Service**
+    - The Deployment created only one pod. Scaling happens via **changing the number of replicas in a deployment.**
+    - K8s supports Autoscaling pods
+    - Commands:
+        - kubectl get rs
+            - gets replicas
+        - kubernetes scale deployment/kubernetes-bootcamp replicas=4
+            - damn, that's pretty easy
+        - kubectl get deployments: now shows 4/4 under ready
+        - kubectl get pods -o wide
+            - shows 4 pods with different IPs
+        - kubectl describe deployments/kubernetes-bootcamp
+        - export NODE_PORT
+            - define the service node port as NODE_PORT
+        - curl $(minikube ip):$NODE_PORT
+            - hits a different node each time - loads balanced, baby
+        - kubectl scale deployments/kubernetes-bootcamp --replicas=2
+- 6 - Performing a Rolling Upgrade
+    - Rolling updates allow the following things: 
+        - Promote an application from one env to another via container image updates
+        - rollback to prior versions
+        - CICD of applications with zero downtime
+    - Commands
+        Kubectl set image deployments/kubernetes-bootcamp kubernetes-bootcamp=jocatalin/kubernetes-bootcamp:v2
