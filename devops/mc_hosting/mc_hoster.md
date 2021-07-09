@@ -8,7 +8,7 @@
 this is hard. start with something simpler and scale up.
 
 - [done] minimum viable aws amplify site 
-    - created mc-holder repo to store codebase
+    - created mc-holder repo in aws-codecommit to store codebase
     - hello world html file in the repo
     - create new amplify site tied to repo 
 - [here] create the world's simplest api 
@@ -18,7 +18,14 @@ this is hard. start with something simpler and scale up.
     - need to configure API gateway now
         - create new REST API 
         - actions, create method, post, point it to the squarer lambda function
-        
+        - add mapping 
+    - test the POST method in API gateway: feed it {"input":6} and get a response body 36
+- [here] get the site to call and respond to the API 
+    - surf stackoverflow to find some code 
+    - getting blocked by CORS protections
+        - maybe running the page on amplify instead of off my desktop will let me not fully deal with this right now
+        - nope, that doesn't do it
+
 - [todo] replace squarer api with ec2 launcher api 
 - [todo] create minecraft server on ec2
 - [todo] move logs from ec2 to webpage
