@@ -1,0 +1,10 @@
+- Introduction
+    - Electricity is more fundamental to civilization than even computers - take that techies
+    - The Grid: the largest machine ever made
+    - Every electrical device survives only as long as it can return to the grid
+    - There's three grids in the US: west (+ some canada and mexico), east, and texas
+    - USA has the highest number of outage minutes per year for aany developed nation
+    - What makes green energy complicated?
+        - It's less consistent than predictable "stock resource" power plants. The grid infrastructure has been built around this predictability since its inception
+        - It is often generated far away from where people live - you have to account for moving electricity over space, which you don't neede to do much when you build a coal plant near a city
+        - Decentralized utilities: the grid is build asymetrically (like a symetric internet connection) - you can't just "upload power" with no issues
