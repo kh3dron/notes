@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h3>welcome to the site</h3>
+
+    <form>
+        Square a number:<br>
+        <input type="text" name="input" onkeyup="callREST()"><br>
+    </form>
+
+    <div id="response"></div>
+
+    <script>
+        function callREST() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("response").innerHTML = this.responseText;
+                    console.log(this.response);
+                }
+            };
+            xhttp.open("POST", "https://<hidden>", true);
+            xhttp.send();
+        }
+    </script>
+</body>
