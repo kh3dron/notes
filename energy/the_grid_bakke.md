@@ -8,3 +8,13 @@
         - It's less consistent than predictable "stock resource" power plants. The grid infrastructure has been built around this predictability since its inception
         - It is often generated far away from where people live - you have to account for moving electricity over space, which you don't neede to do much when you build a coal plant near a city
         - Decentralized utilities: the grid is build asymetrically (like a symetric internet connection) - you can't just "upload power" with no issues
+- 1: The Way of Wind
+    - Peaker Plants: the most inefficient, dirty power plants on the grid
+    - "60% of the men who run the power grid are within 5 years of retirement" fuck
+        - the nataural monopoly of energy generation is a cultural phenomenon
+
+- Portland Power Generation:
+    - Wind: ~1GW over 3 plants
+    - Hydro: ~200MW over 5 plants
+    - Solar: 46MW over "various projects"
+    - Natural Gas / Oil: 2GWh over 5 plants
