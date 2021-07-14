@@ -4,9 +4,10 @@
 
     <h3>welcome to the site</h3>
 
-    <form>
+    <form onsubmit="callREST()">
         Square a number:<br>
-        <input type="text" name="input" onkeyup="callREST()"><br>
+        <input type="text" name="input" ><br>
+        <input type="submit">
     </form>
 
     <div id="response"></div>
@@ -20,8 +21,9 @@
                     console.log(this.response);
                 }
             };
-            xhttp.open("POST", "https://<hidden>", true);
-            xhttp.send();
+            xhttp.open("POST", "<hidden>", true);
+            xhttp.send("input=6");
+            
         }
     </script>
 </body>

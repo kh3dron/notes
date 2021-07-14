@@ -25,6 +25,9 @@ this is hard. start with something simpler and scale up.
     - getting blocked by CORS protections
         - maybe running the page on amplify instead of off my desktop will let me not fully deal with this right now
         - nope, that doesn't do it
+        - turns out it's easy: there's an option to enable CORS on the API gateway
+    - need to get the response from the API to show up on the HTML page
+    - found an issue: I think my API request is wrong. It might show the response how I want it to, but there's currently no parameters passed to the request in the first place
 
 - [todo] replace squarer api with ec2 launcher api 
 - [todo] create minecraft server on ec2
