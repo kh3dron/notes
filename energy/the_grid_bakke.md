@@ -11,7 +11,38 @@
 - 1: The Way of Wind
     - Peaker Plants: the most inefficient, dirty power plants on the grid
     - "60% of the men who run the power grid are within 5 years of retirement" fuck
-        - the nataural monopoly of energy generation is a cultural phenomenon
+        - the nataural monopoly of energy generation is a cultural phenomenon - there's been little competetive need to innovate for a while
+    - Grid scale energy storage does not exist
+        - power is "fresh" - it was generated seconds ago
+    - On how electricity flows: it doesn't "flow" like a liquid. It moves to paths of lower resistance
+        - toaster example: when you turn a toaster on, it has a lower resistance than the rest of the grid, hence its powered on state
+            - obviously some nuance here so you don't get full grid voltage in your kitchen
+    - Salmon run problem: excess power is hard to deal with 
+        - can't flush the dams or you kill all the local fish 
+    - "Though I will concentrate largely on infrastructural delicacy in this book, it does the reader well to remember that the vulnerability of the grid as a technological system is intimately linked to the fragility of biological systems (like salmon runs), the intractability of legal and bureaucratic systems (like the endangered species act), and the unpredictably of meteorological systems (like wind storms)"
+    - Wind turbine specs:
+        - Largest offshore turbines are 8MW
+        - Germany's Enercon makes 7.5 MW models, because they can feed into larger cables
+        - US turbines are 1.5-2 MW: 1.5 is as tall as statue of liberty
+        - 5 MW turbine is 443 ft tall, 2x statue of liberty
+    - Quick laundry list of grid fixes needed:
+        - curb customer demand
+        - end peak demand
+        - grid-scale storage
+        - nataionwide extra-HV DC/AC transmission network for overflow
+        - reduce line congestion
+        - encourage interregional cooperation
+        - develop interoperability standards
+        - increase government investment
+        - train new generation of grid operators
+        - integrate a large number of EVs
+    - mild issue with home solar: the grid needs revenue from power sales to do grid maintenance. Home solar hookups still use the grid, but can be bad economically
+- 2: How the Grid Got its Wires
+
+
+
+
+
 
 - Portland Power Generation:
     - Wind: ~1GW over 3 plants
