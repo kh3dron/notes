@@ -38,6 +38,20 @@
         - integrate a large number of EVs
     - mild issue with home solar: the grid needs revenue from power sales to do grid maintenance. Home solar hookups still use the grid, but can be bad economically
 - 2: How the Grid Got its Wires
+    - first grid build in san francisco, 1879
+    - design history very reminiscent of the internet - everyone piling new shit on top of old, never making sure that the old would work as a good foundation
+        - reminds me of the state of infosec
+    - Mining was a big customer of power at first; lighting, then pumps and hoists for more productivity
+    - Edison's majro contribution: parallel circuits 
+        - his first public grids were simple, enormous parallel circuits of bulbs
+    - A note on water generation: west coast mountain runoff streams are  extremely consistent, wheras midwestern and east coast rivers are a function of rainfall and are more sporadic
+    - Consistent voltage is extremely important to the funciton of the grid
+        - At first, this was solved by creating multiple distinct grids with seperate voltages
+    - We think of the pwoer grid as a public utility now only because it became that way slowly, over time - it wasn't always
+    - DC power doesn't scale well over long distnaces - AC was better for that
+        - not much of a concern, just build more power plants
+
+
 
 
 
