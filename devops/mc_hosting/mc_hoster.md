@@ -11,7 +11,7 @@ this is hard. start with something simpler and scale up.
     - created mc-holder repo in aws-codecommit to store codebase
     - hello world html file in the repo
     - create new amplify site tied to repo 
-- [here] create the world's simplest api 
+- [done] create the world's simplest api 
     - take a number, square it, return it
     - create a lambda function that squares a number
     - add a form to html page, and get form to send request to api
@@ -20,7 +20,7 @@ this is hard. start with something simpler and scale up.
         - actions, create method, post, point it to the squarer lambda function
         - add mapping 
     - test the POST method in API gateway: feed it {"input":6} and get a response body 36
-- [here] get the site to call and respond to the API 
+- [done] get the site to call and respond to the API 
     - surf stackoverflow to find some code 
     - getting blocked by CORS protections
         - maybe running the page on amplify instead of off my desktop will let me not fully deal with this right now
@@ -28,6 +28,14 @@ this is hard. start with something simpler and scale up.
         - turns out it's easy: there's an option to enable CORS on the API gateway
     - need to get the response from the API to show up on the HTML page
     - found an issue: I think my API request is wrong. It might show the response how I want it to, but there's currently no parameters passed to the request in the first place
+        - method execution -> mapping templates has what I need
+        - there's a section here to create a JSON blob via parsing the GET parameters
+        - this is fucking hard
+- [here] set up a CICD pipeline for better version control 
+    - pretty easy on macOS, back to work
+- [here] set up react on the webapp 
+    - this will help these features look less shitty 
+    - CICD putting up a fight getting this to load up right away
 
 - [todo] replace squarer api with ec2 launcher api 
 - [todo] create minecraft server on ec2

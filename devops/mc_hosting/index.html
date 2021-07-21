@@ -10,7 +10,7 @@
         <input type="submit">
     </form>
 
-    <div id="response"></div>
+
 
     <script>
         function callREST() {
@@ -21,9 +21,12 @@
                     console.log(this.response);
                 }
             };
-            xhttp.open("POST", "<hidden>", true);
-            xhttp.send("input=6");
+            xhttp.open("POST", "https://1ftjmoplt6.execute-api.us-west-2.amazonaws.com/square_prod?input=10", true);
+            xhttp.send();
             
         }
     </script>
+
+    <div id="response"></div>
+
 </body>

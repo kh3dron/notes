@@ -8,6 +8,7 @@
         - It's less consistent than predictable "stock resource" power plants. The grid infrastructure has been built around this predictability since its inception
         - It is often generated far away from where people live - you have to account for moving electricity over space, which you don't neede to do much when you build a coal plant near a city
         - Decentralized utilities: the grid is build asymetrically (like a symetric internet connection) - you can't just "upload power" with no issues
+
 - 1: The Way of Wind
     - Peaker Plants: the most inefficient, dirty power plants on the grid
     - "60% of the men who run the power grid are within 5 years of retirement" fuck
@@ -37,6 +38,7 @@
         - train new generation of grid operators
         - integrate a large number of EVs
     - mild issue with home solar: the grid needs revenue from power sales to do grid maintenance. Home solar hookups still use the grid, but can be bad economically
+
 - 2: How the Grid Got its Wires
     - first grid build in san francisco, 1879
     - design history very reminiscent of the internet - everyone piling new shit on top of old, never making sure that the old would work as a good foundation
@@ -52,7 +54,6 @@
         - not much of a concern, just build more power plants
     - Rural Electrification Act of 1936 
 
-
 - 4: The Cardigan Path
     - 1977: Jimmy Carter tells americans to turn down their thermostats
         - in the midst of the energy crisis
@@ -64,8 +65,9 @@
     - Energy historian Richard Hirsch: Energy jobs attracted the bottom of engineering students. Aerospace, electronics, and computing grabs the best, resulting in a stagnant sector
     - The problem with power plant efficiency: they are only barely proofitable if run at 100% load, 24/7. Uptime is critical 
     - PURPA opened the energy market up for more producers: led to a big jump in alternative power
+
 - 5: Things Fall Apart
-    - 
+    - There isn't much planning put into upgrading energy infrastructure; things work until they break, like most people's cars
 
 
 - Portland Power Generation:
