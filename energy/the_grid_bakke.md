@@ -50,12 +50,22 @@
     - We think of the pwoer grid as a public utility now only because it became that way slowly, over time - it wasn't always
     - DC power doesn't scale well over long distnaces - AC was better for that
         - not much of a concern, just build more power plants
+    - Rural Electrification Act of 1936 
 
 
-
-
-
-
+- 4: The Cardigan Path
+    - 1977: Jimmy Carter tells americans to turn down their thermostats
+        - in the midst of the energy crisis
+        - 1979: carter puts solar panels on the white house roof
+    - Carter passes the PURPA, public utilities regulatory poliicies act
+        - contains an important component: utilties have to buy excess power 
+        - Monopsoly: a single BUYER controlling a market
+    - 1979: Three Mile Island accident
+    - Energy historian Richard Hirsch: Energy jobs attracted the bottom of engineering students. Aerospace, electronics, and computing grabs the best, resulting in a stagnant sector
+    - The problem with power plant efficiency: they are only barely proofitable if run at 100% load, 24/7. Uptime is critical 
+    - PURPA opened the energy market up for more producers: led to a big jump in alternative power
+- 5: Things Fall Apart
+    - 
 
 
 - Portland Power Generation:
