@@ -1,0 +1,18 @@
+<script>
+
+  //var requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json';
+  var requestURL = 'https://1ftjmoplt6.execute-api.us-west-2.amazonaws.com/square_prod';
+
+  var request = new XMLHttpRequest();
+  request.open('GET', requestURL);
+  request.responseType = 'json';
+  request.send();
+
+  request.onload = function() {
+    var superHeroes = request.response;
+    document.write(JSON.stringify(superHeroes));
+
+  }
+</script>
+
+<div id=resp></div>
