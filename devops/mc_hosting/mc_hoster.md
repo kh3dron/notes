@@ -28,6 +28,8 @@ this is hard. start with something simpler and scale up.
         - turns out it's easy: there's an option to enable CORS on the API gateway
     - need to get the response from the API to show up on the HTML page
     - found an issue: I think my API request is wrong. It might show the response how I want it to, but there's currently no parameters passed to the request in the first place
+        - Using BurpSuite - form submission is acting as a GET request right now. could fix the API to read that, but would rather get the form to generate a POST, as that'll be more important later
+        - however, might as well make the GET work 
 
 - [todo] replace squarer api with ec2 launcher api 
 - [todo] create minecraft server on ec2

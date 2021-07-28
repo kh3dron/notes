@@ -40,7 +40,13 @@
 - 2: How the Grid Got its Wires
 
 
-
+- 3: The Consolidation of Power
+    - 1882: Rockefeller's Standard Oil Trust is born
+    - Electricity was a hard business to be in:
+        - can't be stored or stockpiled
+        - dangerous to maniuplate 
+        - can't be seperated from infrastructure
+    - 
 
 
 
