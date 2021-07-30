@@ -70,12 +70,38 @@
         - Monopsoly: a single BUYER controlling a market
     - 1979: Three Mile Island accident
     - Energy historian Richard Hirsch: Energy jobs attracted the bottom of engineering students. Aerospace, electronics, and computing grabs the best, resulting in a stagnant sector
-    - The problem with power plant efficiency: they are only barely proofitable if run at 100% load, 24/7. Uptime is critical 
+    - The problem with power plant efficiency: they are only barely profitable if run at 100% load, 24/7. Uptime is critical 
     - PURPA opened the energy market up for more producers: led to a big jump in alternative power
 
 - 5: Things Fall Apart
     - There isn't much planning put into upgrading energy infrastructure; things work until they break, like most people's cars
+    - Trees are an enormous issue to deal with - perhaps the biggest 
 
+- 6: Two Birds, One Stone
+    - Analog v. Digital power meters:
+        - digital obv better to use for many reasons - one of which, you don't have to send a person to read the meter
+        - not only for end customers, but also the utilities - edge network of sensors
+        - allow for surge / peak energy pricing
+    - difficulties in designing new grids (XCEL's SmartGridCity Boulder project)
+        - digging is slow and expensive
+        - IOT meters in the early 2010's were't deployed correctly
+            - they were laying fiber cable to connect them to the internet - what the fuck
+        - purpose of the exercise was unclear to customers - just shut up and make it work
+    - "The Utility Death Spiral"
+        - utilities businesses are shrinking - correction? or end of an economic model?
+        
+- 8: In Search of the Holy Grail
+    - Fusion, baby
+    - Also: batteries
+    - The problem of distributed solar
+        - puts load on the most fragile edges of the grid, not the highly reliable backbones
+    - Creative destruction: utilities stuck with big piles of depreciating assets
+
+
+- My Notes: Topics in Energy Infrastrucure
+    - The difficulty of maintaining large and living systems
+    - The inconsistency problem, the battery solution
+    - The economic asymmetry issue of decentralized power storage and infrastructure investing
 
 - Portland Power Generation:
     - Wind: ~1GW over 3 plants
