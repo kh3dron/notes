@@ -1,16 +1,37 @@
 The Society of Mind
 
-- 1: Prologue
+- 1 - Prologue
     - some terminology:
         - each mind has many smaller processes called agents
         - agents are simple
-- 1.1 - The Agents of the Mind
     - Three rough scales of brain evolution:
         - Short term: maturation of a single brain (through life and learning)
         - Medium term: evolutions of societies (culture, invention)
         - Long term: natural selection (chemistry, anatomy)
-- 1.2 - The Mind and the Brain
     - consider the cell as a unit of life
         - all higher-order organisms appear remarkable compared to the ability of a single cell
-    - now, make an equivalent comparison from the basis as one brain as the unit of intelligence
-    - agents in the mind, like subroutines for simple functions 
+    - now, make an equivalent comparison from the basis as one brain as the unit of intelligence 
+    - your person is a society of mental subroutines, agents, for different actitons & methods
+    - learaned experience gets compressed into "common sense" over time
+    - agents are recursive: they are composed of pointers to other, simpler agents
+    - *** no agent views itself as intelligent, because it knows all it does is maniuplate other agents. In reality, this is the very process of intelligence.**
+- 2 - Wholes and Parts
+    - The intelligence of an agent is its ability to form logical conections of its subagents - the weights of the neural network
+    - no box can hold a mouse: no board can hold a mouse, and a box is only multiple boards
+- 3 - Comflict and Compromise
+    - play with blocks: build tower or destroy tower?
+    - confusion beteween routines manifests confusion within the parent method of play with blocks
+    - The Principle of Noncompromise: the longer a conflict persists amond an agent's subordintaes, the weaker that agent becomes among its own competitors. If this persists, other agents will take control and dismiss the arguing sub-agents. 
+    - Heirarchies: "beurocratic" work of organizing subroutines is extremely important
+- 4 - The Self
+    - can machines have souls? Can machines learn?
+    - knowinig the purpose of things makes understaanding them easier - that the heart is aa pump, for examaple
+    - we ask a similar function for the Self
+        - one function of our Self is to help facilitate long term planning via an identity
+        - imagination similarly helps planning
+        - sometimes there are secondary goals: we can make ourselves less sleepy by imagining a scenario that makes us mad
+- 5 - Individuality
+    - The recursive problem of knowing the self - who makes our decisions?
+    - Fredkin's Paradox - the more similar two options, the harder to choose between them, though the choosing matters less
+- 6 - Insight and Introspection
+    - 
