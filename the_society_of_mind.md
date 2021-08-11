@@ -34,4 +34,11 @@ The Society of Mind
     - The recursive problem of knowing the self - who makes our decisions?
     - Fredkin's Paradox - the more similar two options, the harder to choose between them, though the choosing matters less
 - 6 - Insight and Introspection
-    - 
+    - multi-layered perceptrons
+    - why you can't "debug" your brain - you can't isolate processes or blocks of memory within your mind, it doesn't seem to work like that
+    - time & speed - we're very lucky that people's brains all seem to work at the same pace
+    - communication
+        - our mental agents can't talk to one another - they can only reference pointers to common networks of signals & symbols
+- 7 - Problems and Goals
+    - "Intelligence" is our word for processes not yet triviallized by our internal neurochemistry - similarly to how all tech is AI until it's done, then it's simple algorithms
+    
