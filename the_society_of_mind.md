@@ -41,4 +41,11 @@ The Society of Mind
         - our mental agents can't talk to one another - they can only reference pointers to common networks of signals & symbols
 - 7 - Problems and Goals
     - "Intelligence" is our word for processes not yet triviallized by our internal neurochemistry - similarly to how all tech is AI until it's done, then it's simple algorithms
+    - "expert" knowledge is deep and narrow; "common" sense is broad and shallow, which is harder for machines 
+        - this may be because new symbols are required for wide knowledge, but deep knowledge requires less symbols with more complex weights between them?
+    - the puzzle princie: computers can solve any problem, given they have the ability to tell when it's been solved (even better if they can tell they're getting closer to solving it)
+    - Reinforcement learning: origins from pavlov & skinner
+        - once "rewarded", a procedure of subroutines becomes more able to work together, and less likely to diverge from its configuration (backpropogation)
+    - radio sales: global v. local responsibilities. locals work better if available
+        - local rewarding requires understaindng of how sub-agents contributed to the global reward, more granular logging 
     
