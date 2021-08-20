@@ -14,18 +14,18 @@ The Society of Mind
     - your person is a society of mental subroutines, agents, for different actitons & methods
     - learaned experience gets compressed into "common sense" over time
     - agents are recursive: they are composed of pointers to other, simpler agents
-    - *** no agent views itself as intelligent, because it knows all it does is maniuplate other agents. In reality, this is the very process of intelligence.**
+    - __no agent views itself as intelligent, because it knows all it does is maniuplate other agents. In reality, this is the very process of intelligence.__
 - 2 - Wholes and Parts
     - The intelligence of an agent is its ability to form logical conections of its subagents - the weights of the neural network
     - no box can hold a mouse: no board can hold a mouse, and a box is only multiple boards
 - 3 - Comflict and Compromise
     - play with blocks: build tower or destroy tower?
     - confusion beteween routines manifests confusion within the parent method of play with blocks
-    - The Principle of Noncompromise: the longer a conflict persists amond an agent's subordintaes, the weaker that agent becomes among its own competitors. If this persists, other agents will take control and dismiss the arguing sub-agents. 
+    - __The Principle of Noncompromise: the longer a conflict persists amond an agent's subordintaes, the weaker that agent becomes among its own competitors. If this persists, other agents will take control and dismiss the arguing sub-agents.__
     - Heirarchies: "beurocratic" work of organizing subroutines is extremely important
 - 4 - The Self
     - can machines have souls? Can machines learn?
-    - knowinig the purpose of things makes understaanding them easier - that the heart is aa pump, for examaple
+    - knowing the purpose of things makes understaanding them easier - that the heart is aa pump, for examaple
     - we ask a similar function for the Self
         - one function of our Self is to help facilitate long term planning via an identity
         - imagination similarly helps planning
@@ -41,11 +41,14 @@ The Society of Mind
         - our mental agents can't talk to one another - they can only reference pointers to common networks of signals & symbols
 - 7 - Problems and Goals
     - "Intelligence" is our word for processes not yet triviallized by our internal neurochemistry - similarly to how all tech is AI until it's done, then it's simple algorithms
-    - "expert" knowledge is deep and narrow; "common" sense is broad and shallow, which is harder for machines 
-        - this may be because new symbols are required for wide knowledge, but deep knowledge requires less symbols with more complex weights between them?
+    - __"expert" knowledge is deep and narrow; "common" sense is broad and shallow, which is harder for machines__
+        - this may be because new symbols are required for wide knowledge, but deep knowledge requires less symbols 1with more complex weights between them?
     - the puzzle princie: computers can solve any problem, given they have the ability to tell when it's been solved (even better if they can tell they're getting closer to solving it)
     - Reinforcement learning: origins from pavlov & skinner
         - once "rewarded", a procedure of subroutines becomes more able to work together, and less likely to diverge from its configuration (backpropogation)
     - radio sales: global v. local responsibilities. locals work better if available
         - local rewarding requires understaindng of how sub-agents contributed to the global reward, more granular logging 
+- 8 - A Theory of Memory
+    - K-lines theory: knowledge lines that touch every activated agent for a task
+    
     
