@@ -7,4 +7,5 @@
 -   Max Pooling: a way to shrink tensors, using a filter size and stride. For a filter of 2x2 and stride of 2, every 2x2 region becomes a single cell with the value of the max value in the 2x2 zone. 
     -   There's other types of pooling, such as average pooling
 
--   W.R.T - means "with respect to", duh
+- Gradient Boosted Trees / Gradient Boosting
+    - like random forests, but more sequential? 

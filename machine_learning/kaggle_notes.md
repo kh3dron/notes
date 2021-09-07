@@ -299,6 +299,9 @@ Quick dataframe ranking all the models we tested:
                 result_gbc.mean(), result_lda.mean(), result_tree.mean()]})
     models.sort_values(by='Score',ascending=False)
 
+
+
+
 ---
 
 
@@ -315,4 +318,4 @@ Quick dataframe ranking all the models we tested:
 
 ## Digit Classifier
 
-- already have some chunks of a pytorch neural network - try to get that too run with the kaggle data
+- data is loaded in with pd.read_csv. Use .head to show some data
