@@ -139,7 +139,7 @@ Initialize training
     from sklearn.model_selection import cross_val_score #score evaluation
     from sklearn.model_selection import cross_val_predict #prediction
     from sklearn.metrics import confusion_matrix #for confusion matrix
-    all_features = traindf.drop("Survived",axis=1)
+    all_features = traindf.drop("Survived",axis=1) #copy of the traindf without Survived
     Targeted_feature = traindf["Survived"]
     X_train,X_test,y_train,y_test = train_test_split(all_features,Targeted_feature,test_size=0.3,random_state=42)
     X_train.shape,X_test.shape,y_train.shape,y_test.shape
