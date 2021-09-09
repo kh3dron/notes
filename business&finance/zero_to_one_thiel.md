@@ -1,0 +1,36 @@
+- Preface
+    - copying thigns that already exist is going from n to n+1. Doing something new is going 0 to 1
+    - technology is great
+- 1 - The Challenge of the Future
+    - What important truth do very few people agree with you on?
+    - Out v. up, horizontal v. vertical, extensive v. intensive progress: more versus new
+    - Startup thinking
+        - beurocratic / large companies reward you for looking busy; this is harder in startups
+            - do not completely agree with this - VC money chasing stories of hypergrowth feels like a counter
+- 2 - Party Like It's 1999
+    - things people  learned from the dot com crash:
+        - make incremental advances
+        - stay lean and flexible
+            - iteration over planning
+        - improve on the competition
+            - hard to invent something completely new
+        - focus on product, not sales
+- 3 - All Happy Companies are Different
+    - you have to both create value as well as capture it
+        - example: airlines create but struggle to capture, google creates less but captures far more
+    - "Competition is for losers"
+        - monopolies pretend they're competetive, competitors pretend they're the monopolists
+        - competitiors frame their markets as intersections of small markets, making them the only ones there
+        - monopolists frame with unions of sets, which makes the market huge
+    - very hard to have a comfortable / secure workplace without being a monopoly
+- 4 - The Ideology of Competition
+    - All Rhodes Scholars had a great future in their past
+- 5 - Last Mover Advantage
+    - Most of a tech company's value comes 10-15 years in the future. Therfore, a critical part of your valuation should be determining why and how you'll still exist 10 years from now. 
+    - Characteristics of Monopoly:
+        - proprietary technology
+            - being a factor of 10 better is sexy and noticable
+        - network effects
+        - economies of scale
+        - branding
+    - 
