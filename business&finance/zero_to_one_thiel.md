@@ -33,4 +33,41 @@
         - network effects
         - economies of scale
         - branding
-    - 
+    - start small: dominate one market, then move to the next
+    - "disruption": stop caring about being seen as defeating incumbents, just build something
+- 6 - You are Not a Lottery Ticket
+    - Indefinite process: lack plans, build portfolio of options
+        - think college apps
+        - optimism: "ride the wave", consulting, investing, allocation & organization
+    - definite process: favors conviction. become a monopoly of one
+        - optimism: build the future, don't wait for it
+    - Our Indefinite World
+        - Finance: for people who don't actually know how to build things
+            - money is perfectly indefinite; it's more valuable than anything you could do with it
+        - Politics: preference for incremental, recurring solutions rather than architecting large projects (social security > moon landings)
+    - Progress without planning is evolution - trendy, but thiel does not believe always true
+    - We must believe in personal agency and control 
+- 7 - Follow the Money
+    - vc funding has extremely high variance returns
+        - tech startups either moon or die, there's no treading water on a >10yr timescale
+        - every company in a vc fund must have the potential to absolutely blow the fuck up 
+- 8 - Secrets
+    - common knowledge - already known. mysteries - unknowable 
+    - secrets: solvable but difficult problems
+- 9 - Foundations
+    - pick your cofounders carefully
+    - get everyone on the bus: no part time team members for startups
+    - leadership should not be paid crazy high 
+    - comp via shares alligns incentives better than cash 
+- 10 - The Mechanics of the Mafia
+    - playful tech offices should be a side effect, not a goal
+    - the paypal mafia are all frens <3 <3 <3
+    - what should motivate new hires?
+        - money, prestige, smart coworkers, and mission are all table stakes by now (2014)
+        - get specific 
+        - you cannot win the perk war as a startup
+    - simplify people's responsibilities
+- 11 - If You Build It, Will They Come?
+    - you are not immune to advertising, bitch
+    - it's hard work to make marketing look easy
+    
