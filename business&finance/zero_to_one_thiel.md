@@ -70,4 +70,16 @@
 - 11 - If You Build It, Will They Come?
     - you are not immune to advertising, bitch
     - it's hard work to make marketing look easy
-    
+- 12 - Man and Machine
+    - man-machine symbiosis has alaways been more real than machine supremacy (kasparov talk)
+    - pipelines and UIs to aid human work is where best opertaional leverage exists
+    - On strong AI: "replacement by computers is a worry for the 22nd century"
+- 13 - Seeing Green
+    - Why did cleantech fail in the 2000s?
+        - not enough breakthrough tech, too much incremental improving
+        - not the right time
+        - not starting with big share of small market
+        - wrong team
+        - distribution problems
+        - durability problems
+        - no unique opportunity
