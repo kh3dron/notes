@@ -83,3 +83,16 @@
         - distribution problems
         - durability problems
         - no unique opportunity
+    - never invest in founders who wear suits to pitches
+    - Tesla: 7 for 7 (seriously
+        - tech: far aheads
+        - timing: lever up in the cleantech bubble
+        - monopoly: start in the high end
+        - team: built different
+        - distribution: fuck dealerships
+        - durability: founder led, great brand
+        - secrets: hard tech + branding
+- 14 - The Founder's Paradox
+    - you may say that the distribution of traits for founders inverses the bell curve
+    - comparing founders to gods and kings, give me a break
+    
