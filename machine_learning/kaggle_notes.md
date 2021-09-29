@@ -319,3 +319,13 @@ Quick dataframe ranking all the models we tested:
 ## Digit Classifier
 
 - data is loaded in with pd.read_csv. Use .head to show some data
+
+## Monet GANs
+
+## Intro to Game AI with Reinforcement Learning
+
+- Start with classic strats: random, always left, etc. 
+- 1 step minimax
+- N step minimax
+- Deep Reinforcement Learning
+    - Some algorithms: DQN, A2C, PPO
