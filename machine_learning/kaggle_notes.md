@@ -5,6 +5,23 @@ From this helpful guide: https://www.kaggle.com/vinothan/titanic-model-with-90-a
 
 ### Identify Missing Data: Populate or Delete
 
+Load in initial datasets
+
+    train_df=pd.read_csv("../input/digit-recognizer/train.csv")
+    test_df=pd.read_csv("../input/digit-recognizer/test.csv")
+
+    train_df.head()
+
+Dependencies
+
+    import numpy as np 
+    import pandas as pd
+    import matplotlib.pyplot as plt
+    import seaborn as sns
+    import warnings
+    warnings.filterwarnings('ignore')
+    %matplotlib inline
+
 Renders a bar chart of whic data is the most missing. 
 
     def missingdata(data):
@@ -319,3 +336,9 @@ Quick dataframe ranking all the models we tested:
 ## Digit Classifier
 
 - data is loaded in with pd.read_csv. Use .head to show some data
+
+## Advanced Regressions with Housing Dataset
+
+- load data
+- drop columns with <50% values
+- correlation matrix - set xticklabels and yticklabels=True 
