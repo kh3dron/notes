@@ -22,7 +22,7 @@ Dependencies
     warnings.filterwarnings('ignore')
     %matplotlib inline
 
-Renders a bar chart of whic data is the most missing. 
+Renders a bar chart of which data is the most missing. 
 
     def missingdata(data):
     total = data.isnull().sum().sort_values(ascending = False)
