@@ -83,9 +83,11 @@ Some ideas for engineered features: titles, family size
         if title_search:
             return title_search.group(1)
         return ""
+
     # Create a new feature Title, containing the titles of passenger names
     for dataset in all_data:
         dataset['Title'] = dataset['Name'].apply(get_title)
+    
     # Group all non-common titles into one single grouping "Rare"
     for dataset in all_data:
         dataset['Title'] = dataset['Title'].replace(['Lady', 'Countess','Capt', 'Col','Don', 'Dr', 'Major', 'Rev', 'Sir', 'Jonkheer', 'Dona'], 'Rare')
@@ -342,3 +344,9 @@ Quick dataframe ranking all the models we tested:
 - load data
 - drop columns with <50% values
 - correlation matrix - set xticklabels and yticklabels=True 
+- Data Preprocessing
+  - Column by Column baby
+    - Id
+    - MSSubClass
+      - sparse data with outliers
+      - transform to deviation from the mean
