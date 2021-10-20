@@ -21,3 +21,24 @@ NEW RELIC: SITE RELIABILITY ENGINEERING
   - saturation
 - SLOs, SLAs
   - error budgets (cool idea)
+  - toil
+
+
+- okta 
+- new role
+  - okta got big growth
+  - growing monitoring gang
+  - stack
+    - aws
+    - linux & java, python, bash, perl, golang
+    - splunk, prometheus, grafana, elk, zabex and wavefront?
+    - docker, moving to k8s
+    - terraform
+  - culture
+    - salesforce-esque
+    - transparency
+      - weekly townhalls
+    - aquired auth0
+    - 5000 headcount
+      - no startup, "turbogrowth" midsize 
+- working on fedramp cert 

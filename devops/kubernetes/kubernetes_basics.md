@@ -105,4 +105,19 @@
         - rollback to prior versions
         - CICD of applications with zero downtime
     - Commands
-        Kubectl set image deployments/kubernetes-bootcamp kubernetes-bootcamp=jocatalin/kubernetes-bootcamp:v2
+      - Update the version of the app
+        - kubectl get deployments
+        - kubectl get pods
+        - kubectl describe pods
+        - kubectl set image deployments/kubernetes-bootcamp kubernetes-bootcamp=jocatalin/kubernetes-bootcamp:v2
+      - Verify an update
+        - kubectl describe services/kubernetes-bootcamp
+        - export NODE_PORT=$(kubectl get services/kubernetes-bootcamp -o go-template='{{(index .spec.ports 0).nodePort}}')
+        - echo NODE_PORT=$NODE_PORT
+        - curl $(minikube ip):$NODE_PORT
+        - kubectl rollout status deployments/kubernetes-bootcamp
+      - Rollback an update
+        - kubectl set image deployments/kubernetes-bootcamp kubernetes-bootcamp=gcr.io/google-samples/kubernetes-bootcamp:v10
+        - kubectl get deployments
+        - kubectl get pods
+        - kubectl rollout undo deployments/kubernetes-bootcamp
