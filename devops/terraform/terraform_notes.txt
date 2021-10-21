@@ -1,0 +1,57 @@
+2 - What is Devops Automation
+    IAC - Infrastructure as Code
+3 - Technologies
+    IAM
+    ECS Standard: manage servers, ECS handles docker
+    ECS Fargate: serverless container orchestration
+    EC2 - virtual server for admins
+    VPC - silo resources per env
+    RDS - relational DB service, managed
+    ALB - application load balancer
+    S3 - persistent storage 
+        Fargate is stateless, so this is needed
+    Cloudwatch - log aggregator
+    ACM - certificate manager
+    Terraform - IAC 
+    Gitlab - CI/CD Pipelines
+    Docker
+    Django / Rest
+4 - Architecture
+5 - Recipe application  
+6 - Cost Estimation
+7 - Updated Cost Estimation
+8 - Disclaimer
+    don't fuck up and bill a million dollars
+    don't get hacked
+9 - How to get help
+    get fucked
+
+SETTING UP A DEV ENV
+10 - Update
+11 - Install and test dependencies
+12 - GitLab and SSH auth 
+    skipping because windows
+13 - AWS Setup Overview
+14 - Create AWS Account
+15 - give AIM users billing information
+16 - Set up AWS IAM account
+    tristan.saldanha:Li***+1!
+17 - Set MFA on IAM account
+    this is what the other option is when logging into a root account
+18 - Setup AWS-vault
+19 - Create a Budget in AWS 
+20 - Introduction to NGINX proxy
+    Use this to serve static files
+    forward dynamic requests on to the application backend
+21 - Create project for NGINX proxy
+22 - Configure NGINX proxy Gitlab project
+    Set your pipelines to private - can show off important data
+    Protected branch: only certain users can create them
+        create a *-release wildcard
+    same thing with protected tags
+    Had to generate SSH key and connect that to gitlab first
+    Clone the repo and you're Set
+23 - Set up AWS for NGINX proxy
+    AWS ECR - store docker images
+    Create new repository in ECR
+    create IAM user 
