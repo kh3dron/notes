@@ -351,3 +351,4 @@ Quick dataframe ranking all the models we tested:
       - sparse data with outliers
       - transform to deviation from the mean
       - note: kaggle does not automatically load the most recent version of your notebook
+    - MSZoning: 5 buckets

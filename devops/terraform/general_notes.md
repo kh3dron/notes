@@ -13,4 +13,7 @@
     - terraform apply
     - terraform destroy
 - Build Infrastucture
-- 
+  - Terraform block
+  - commands: 
+    - terraform fmt
+    - terraform validate
