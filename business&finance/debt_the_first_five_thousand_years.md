@@ -1,0 +1,6 @@
+- 1 - On the Experience of Moral Confusion
+  - IMF - International Monetary Fund s
+  - "Surely one has to pay one's debts"
+    - Zero-risk debt actually doesn't make sense
+    - that's how risk is priced 
+  - Most people believe two things at once: lending money is evil, but paying debt is moral

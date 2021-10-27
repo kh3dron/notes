@@ -17,3 +17,16 @@
   - commands: 
     - terraform fmt
     - terraform validate
+  - deployed an EC2 instance
+  - terraform.tfstate file
+    - terraform show to describe
+    - lots of info to disclose, hold safely
+    - terraform state list
+- Change Infrastructure
+  - edit main.tf, apply. 
+- Destroy Infrasctucture
+  - terraform destroy
+- Define input variables
+  - not saved when set via CLI
+- Query data with outputs
+  
