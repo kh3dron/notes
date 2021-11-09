@@ -103,3 +103,7 @@ replace all nulls with mode:
     descriptor_counts = pd.Series([n_trop, n_fruity], index=['tropical', 'fruity'])
 
 ### Grouping and Sorting
+
+- groupwise analysis
+  - reviews.groupby('points').points.count()
+  - reviews.groupby('points').price.min()
