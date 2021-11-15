@@ -24,6 +24,17 @@ Zero-Shot Text-to-Image Generation
 - Image processing:
   - downscale the images and the text data, pair them together as single entities
 
+
+VOGUE: Try-On StyleGAN Interpolation Optimization
+
+- Given an pair of images, person and garments A and B, put garment B on person A. 
+  - I guess 512x512 image is considered high resolition for ML
+- StyleGAN2 to create a middle layer which classifies anatomy from pictures - identify shirts, pants, hands, hair, neck, face
+
+Taming Transformers for High Resulotion Image Synthesis
+
+
+
 #### GLOSSARY: INTERESTING TERMS AND CONCEPTS
 
 - Catastrophic Forgetting
@@ -31,3 +42,7 @@ Zero-Shot Text-to-Image Generation
 - Zero Shot Learning
 - Transformers
 - Auoregressive Model
+
+### LAYERS 
+- Max Pooling: grab max of a range (2x2 pixel cells) and compress to max (downscale, exagerate features)
+- 
