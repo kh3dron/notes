@@ -33,6 +33,9 @@ VOGUE: Try-On StyleGAN Interpolation Optimization
 
 Taming Transformers for High Resulotion Image Synthesis
 
+Generative Adversarial Transformers
+
+
 
 
 #### GLOSSARY: INTERESTING TERMS AND CONCEPTS
