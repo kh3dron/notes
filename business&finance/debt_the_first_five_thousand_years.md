@@ -4,3 +4,10 @@
     - Zero-risk debt actually doesn't make sense
     - that's how risk is priced 
   - Most people believe two things at once: lending money is evil, but paying debt is moral
+- 2 - The Myth of Barter
+  - debt is older than money
+  - three functions of money:
+    - medium of exchange
+    - unit of account
+    - store of value
+    - 
