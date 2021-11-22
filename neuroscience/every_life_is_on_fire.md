@@ -3,3 +3,4 @@
   - science doesn't have to disagree with christian or hebrew scripture about this
 - 2 - Staff and Snake
   - Reductionism used to be popular, but has fallen out of style since the discovery of modern physics in the early 1900s
+  - Even problems which appear simple can be easily tipped deep into complexity - neutonian mechanics of two orbitting bodies are easy, but add one more and the three body problem becomes chaotic

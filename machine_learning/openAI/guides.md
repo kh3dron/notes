@@ -1,0 +1,26 @@
+Completions endpoint
+
+- Prompt Design
+  - Imagine you're setting up a word problem for a middle schooler 
+  - Show and tell: set clear expectations for output
+  - Privide quality data
+  - tune hyperparams
+- Other endpoints:
+  - Classifier
+  - Generation
+    - Takes title of list and first entry, endpoint will create more
+    - Explain the intent of the list
+    - An example that sets the pattern for the list
+    - Prompt the AI by leading a trailing bullet point
+  - Conversation
+    - Tell the API intent, as well as how to behave
+    - Give API an identity 
+  - Transformation
+    - Define a pattern, and the API will continue it
+      - Describe movie titles with emojis
+    - Summarization
+  - Completion
+  - Factual Responses
+  - Generate code from text descriptions
+- Key through all the endpoints is that text can be used to describe the desired API behavior. IE, start the request with "This is a tweet sentiment classifier", or "This is a sassy AI assistant". 
+- 

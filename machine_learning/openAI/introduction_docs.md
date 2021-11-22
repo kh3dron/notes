@@ -1,0 +1,10 @@
+- Completions endpoint
+  - args: prompt (string)
+  - designing the prompt is most of the work
+- Specific endpoints for semantic search, classification, question answering
+- Tokens
+  - chunk of words processed by the model, usually ~4 letters
+  - endpoints have a max token size
+- 3 models for the API 
+  - Davinci, Curie, Babbage, Ada
+  - Different speeds / qualities for different budgets

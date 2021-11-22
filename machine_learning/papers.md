@@ -31,21 +31,12 @@ VOGUE: Try-On StyleGAN Interpolation Optimization
   - I guess 512x512 image is considered high resolition for ML
 - StyleGAN2 to create a middle layer which classifies anatomy from pictures - identify shirts, pants, hands, hair, neck, face
 
-Taming Transformers for High Resulotion Image Synthesis
+BERT: Pre-Training of Deep Bidirectional Transformers for Language Understanding
 
-Generative Adversarial Transformers
-
-
-
-
-#### GLOSSARY: INTERESTING TERMS AND CONCEPTS
-
-- Catastrophic Forgetting
-- Curiosity Learning
-- Zero Shot Learning
-- Transformers
-- Auoregressive Model
-
-### LAYERS 
-- Max Pooling: grab max of a range (2x2 pixel cells) and compress to max (downscale, exagerate features)
+- Typically, NLP models think left to right, where each word can see the context to the left of it. 
+  - "The man went to a store"
+    - "store" knows that "a" refers to the store, but the "man" token is unaware of the "store" modifier. 
+- Some solve this solution by also flipping all the data, then concatonating the two models after the fast. But what if we do this in one pass?
+  - There's a problem of words "seeing themslves" if we do this wrong
+- Another issue with LMs is relationships between sentences, so we wrote a binary classifier for if sentenc B came after sentence A in the source text. 
 - 
