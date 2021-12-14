@@ -39,4 +39,26 @@ BERT: Pre-Training of Deep Bidirectional Transformers for Language Understanding
 - Some solve this solution by also flipping all the data, then concatonating the two models after the fast. But what if we do this in one pass?
   - There's a problem of words "seeing themslves" if we do this wrong
 - Another issue with LMs is relationships between sentences, so we wrote a binary classifier for if sentenc B came after sentence A in the source text. 
-- 
+  
+Attention Is All You Need
+(Transformers for NLP)
+
+- Old models for NLP
+  - Bag of words: like a hash table of all characters, does not store order 
+  - RNN: store each word as a vector, add it as a hidden state to the next word vector
+    - Vanishing or exploding gradient problem: dependencies fade as they get further away
+    - difficult to learn long range dependencies for this reason
+  - LSTM: Type of RNN
+    - 2 hidden states: store the hidden states without compounding them as hard
+- Attention: the decoder can jump backwards to past values, rather than just look through linearly compressed hidden states
+- Queries, Keys, Values
+  - Values: interesting things about the sentence (facts)
+  - Keys: how to address the values (where to find the facts)
+  - Queries: requests for Values (requests for facts)
+- Benefits
+  - Parallelizable: because we're not stepping backwards, running attention on a sentence is just one large matmult with itself
+
+An Image is Wirth 16x16 Words: Transformers for Image Recognition At Scale
+
+- Transformers work on sequences, or sets, which makes images seem unlikely (too many pixels)
+- We can run attention on images by feeding chunks of images as a seqence, rather than pixels, and it turns out that works quite well
