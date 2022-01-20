@@ -1,0 +1,39 @@
+- 1 - What is Deep Learning?
+  - AI > Machine Learning > Deep Learning
+    - Artificial Intelligence
+      - complex, hard-coded rules
+      - Expert systems boom in 1980s
+      - "Symbolic AI": good at logic probems, struggles with abstraction (image classification)
+    - Machine Learning
+      - really started in the 1990s
+      - tailwinds of faster hardware, large datasets
+      - automation of searching for better rules & algorithms for problems
+    - Deep Learning
+      - increasing the layers of abstraction used in ML models (hidden layers)
+      - note: there's no evidence that the brain acts like a neural network (no back propogation, iirc)
+      - example of the digit classifier MLP
+      - NNs are parameterized by weights, which are tuned via back propogation, all that good stuff
+      - rose to prominence in the 2010s, again helped by larger and cheaper compute. 
+      - Be aware of a new AI winter: inflated expectations followed by a crash and loss of funding
+        - is death by funding less likely now, due to the use of AI in industry? 
+        - hard to believe Gogle, Tesla & Nvidia would allow funding to dry up
+  - A Brief History of Machine Learning
+    - Probabalistic Modeling
+      - naive bayes
+      - logistic regression
+    - Early neural networks
+      - originated in the 50s, caught on in the 80s
+      - tailwind of discovery of backpropogation algorithm with gradient descent
+      - LeNet algorithm for digit recognition - the OG Mnist, used by USPS to read ZIP codes
+    - Kernel Methods
+      - SVM
+      - Kernel functions, kernel trick: calculating the distance between two points in hyperspace without transposing the points into that hyperspace
+    - Return of the Neural Networks (2010s)
+      - key sell: automated feature engineering
+    - __the optimal first representation layer in a threelayer model isn’t the optimal first layer in a one-layer or two-layer model__
+    - 2016 and 17: XGBoost for supervised learning, and DNNs for perception
+  - Strengths of deep learning:
+    - scalability: parallelizable
+    - reusability: model can be trained on new data without starting over
+    - simplicity: no feature engineering
+- 2 - The Mathematics of Neural Networks
