@@ -37,3 +37,17 @@
     - reusability: model can be trained on new data without starting over
     - simplicity: no feature engineering
 - 2 - The Mathematics of Neural Networks
+  - see code: Ch02_FirstNN
+  - scalars -> vectors -> matrices -> tensors
+    - all have shape methods
+    - lots of methods from python lists are applicable for numpy tensors - even multidimensional slicing (tensor[10:100, :, :])
+    - batch dimension: the dimension across which batches are cut (first of the three dimensions in the mnist dataset tensor)
+- 3 - Getting Started with Neural Networks
+  - three types of things we'll do:
+    - binary classification, multiclass classification, regression
+  - anatomy of a NN:
+    - Layers, input data, targets, loss function, optimizer
+    - __the topology of a network can also be called the hypothesis space__
+  - Keras
+    - API for tensorflow, theano, CNTK
+    - 
