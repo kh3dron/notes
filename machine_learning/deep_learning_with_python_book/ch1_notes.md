@@ -50,4 +50,7 @@
     - __the topology of a network can also be called the hypothesis space__
   - Keras
     - API for tensorflow, theano, CNTK
+  - Activation functions
+    - ReLu (discontinuous)
+    - Sigmoid (logistic function)
     - 
