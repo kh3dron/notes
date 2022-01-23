@@ -53,4 +53,5 @@
   - Activation functions
     - ReLu (discontinuous)
     - Sigmoid (logistic function)
-    - 
+  - Regressions with DNNs: last layer has just one neuron with no activation function
+- 4 - 
