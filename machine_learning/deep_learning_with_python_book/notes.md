@@ -54,4 +54,5 @@
     - ReLu (discontinuous)
     - Sigmoid (logistic function)
   - Regressions with DNNs: last layer has just one neuron with no activation function
-- 4 - 
+- 4 - Fundamentals of Machine Learning
+  - notes moved to notion
