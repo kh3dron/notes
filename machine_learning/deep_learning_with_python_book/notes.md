@@ -56,3 +56,8 @@
   - Regressions with DNNs: last layer has just one neuron with no activation function
 - 4 - Fundamentals of Machine Learning
   - notes moved to notion
+- 5 - Deep Learning for Computer Vision
+  - Convolutional Neural Nets (Convnets)
+    - Pattern recognition is translation invariant - the same pattern is regocnizable anywhere in the image
+    - sliding a box over an image to check for activation
+    - Stride param: pixels to pass per each frame
