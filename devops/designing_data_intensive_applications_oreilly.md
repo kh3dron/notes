@@ -1,11 +1,5 @@
 Designing Data Intensive Applications
 
-
-
-Preface
-
-- Data intensive is defined in opposition to Compute intensive
-
 1 - Reliable, Scalable, and Maintainable Applications
 
 - Components of a data intensive application:
@@ -43,7 +37,9 @@ Preface
         - Abstraactions, APIs
       - **Evolvability**: also known as extensability, easy to change
         - AGILE baby
+        
 - 2 - Data Models and Query Languages
+
   - Relational Model
     - **RDBMS** , or Relational DataBase Management System: maianly **SQL** 
     - Alternatives have come and gone, but SQL is suprisingly sticky
@@ -68,7 +64,9 @@ Preface
     - Nodes and Edges, classic algos 
     - Some graphs have mixed data types as nodes and edges - IE not all nodes are people and all edges are friendships
     - Triple-store model: subject, predicate, object model
+    
 - 3 - Storage and Retrieval
+
   - Hash tables - you love to see them
     - Not great on disks, better in memory - requires lots of random read/writes
     - Range queries also don't work well - each hash is a separate read/write
@@ -77,5 +75,13 @@ Preface
     - log(n) for search, insert, delete
 
 
+- 4 - Encoding and Evolution
 
-resume on pg. 50
+  - Most common problem to work around is changing the in-memory representation of data into a network-friendly format
+  - Language-specific formats: 
+    - python pickle, java serializable. Problem is that this is brittle - language specific, often language version specific. Also introduces parsing risk when passing these around and reading shit directly into memory 
+  - JSON, XML, CSV
+    - highly compatible, human-readable
+    - some disagreement on the margins about things like handling numbers, binary
+    
+   
