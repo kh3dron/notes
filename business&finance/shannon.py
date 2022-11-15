@@ -41,7 +41,7 @@ def coinflip_game2(start_balance, flips, reserve_ratio):
         deployed.append(nw[i]*(1-reserve_ratio))
         reserved.append(nw[i]*reserve_ratio)
 
-    return deployed
+    return nw
     
 def sim_coinflip_game2(start_balance, flips, reserve_ratio, trials):
     results = []
