@@ -1,4 +1,5 @@
 Designing Data Intensive Applications
+https://public.nikhil.io/Designing%20Data%20Intensive%20Applications.pdf
 
 1 - Reliable, Scalable, and Maintainable Applications
 
@@ -83,5 +84,6 @@ Designing Data Intensive Applications
   - JSON, XML, CSV
     - highly compatible, human-readable
     - some disagreement on the margins about things like handling numbers, binary
+  - 
     
    
