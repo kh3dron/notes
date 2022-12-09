@@ -22,10 +22,12 @@ The Society of Mind
     - play with blocks: build tower or destroy tower?
     - confusion beteween routines manifests confusion within the parent method of play with blocks
     - __The Principle of Noncompromise: the longer a conflict persists amond an agent's subordintaes, the weaker that agent becomes among its own competitors. If this persists, other agents will take control and dismiss the arguing sub-agents.__
+        - If the "build tower" agent's sub-agents are conflicting, the build tower agent stalls, and can be overpowered by the competing destroy-tower. 
+            - Interesting how this applies to learning and struggle. A smart person can persist through ambiguity, like when solving difficult problems. If I can force myself to build a tower when it's hard, that makes the tower building agent stronger by me intervening in agent takeover. 
     - Heirarchies: "beurocratic" work of organizing subroutines is extremely important
 - 4 - The Self
     - can machines have souls? Can machines learn?
-    - knowing the purpose of things makes understaanding them easier - that the heart is aa pump, for examaple
+    - knowing the purpose of things makes understanding them easier - that the heart is aa pump, for examaple
     - we ask a similar function for the Self
         - one function of our Self is to help facilitate long term planning via an identity
         - imagination similarly helps planning
@@ -36,7 +38,7 @@ The Society of Mind
 - 6 - Insight and Introspection
     - multi-layered perceptrons
     - why you can't "debug" your brain - you can't isolate processes or blocks of memory within your mind, it doesn't seem to work like that
-    - time & speed - we're very lucky that people's brains all seem to work at the same pace
+    - time & speed - we're very lucky that people's brains all seem to work at roughly the same pace
     - communication
         - our mental agents can't talk to one another - they can only reference pointers to common networks of signals & symbols
 - 7 - Problems and Goals
@@ -50,5 +52,9 @@ The Society of Mind
         - local rewarding requires understaindng of how sub-agents contributed to the global reward, more granular logging 
 - 8 - A Theory of Memory
     - K-lines theory: knowledge lines that touch every activated agent for a task
-    
+        - "When you're fixing your bicycle, start by painting your hands red. All the tools will get marked up. Next time you need to fix your bike, you'll know what tools you'll need. 
+    - Remember the theory of non-compromise, and apply that to the purpose of memory: 
+        - Some memories are meant to bring about emotional states, such as memories you access when you want to feel nostalgic. Some parts of that memory will very clearly serve that reward function, like specific details. This is why you don't remember things accurately, but the feelings attached to specific components are amplified over time. 
+        - This even applies to specific verbalization over time - you can lose the ability to describe a scenario at all, because the function - making you feel a certain way - is all that remains!
+    - Level-bands: How do we avoid referencing too many other agents? Organize agents by complexity, like the depth of nodes in hidden layers
     
